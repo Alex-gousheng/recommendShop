@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+		    "path" : "pages/tabbar/my/my",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人中心",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/tabbar/category/category",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "分类",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/tabbar/order/order",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "订单",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/tabbar/shopCart/shopCart",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "购物车",
+		        "enablePullDownRefresh": false
+		    }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#666",
+		"selectedColor":"#f07373",
+		"backgroundColor":"#fff",
+		"list":[{
+			"pagePath":"pages/tabbar/index/index",
+			"iconPath":"static/logo.png",
+			"selectedIconPath":"static/logo.png",
+			"text":"首页"
+		},{
+			"pagePath":"pages/tabbar/category/category",
+			"iconPath":"static/logo.png",
+			"selectedIconPath":"static/logo.png",
+			"text":"分类"
+		},{
+			"pagePath":"pages/tabbar/shopCart/shopCart",
+			"iconPath":"static/logo.png",
+			"selectedIconPath":"static/logo.png",
+			"text":"购物车"
+		},{
+			"pagePath":"pages/tabbar/order/order",
+			"iconPath":"static/logo.png",
+			"selectedIconPath":"static/logo.png",
+			"text":"订单"
+		},{
+			"pagePath":"pages/tabbar/my/my",
+			"iconPath":"static/logo.png",
+			"selectedIconPath":"static/logo.png",
+			"text":"我的"
+		}
+		]
+		
+	}
+}
